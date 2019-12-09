@@ -480,7 +480,7 @@ add_action( 'wp_login_failed', 'my_front_end_login_fail' );  // hook failed logi
         b.style.display = "none";
         c.style.display = "none";
         document.getElementById("caixa").style.height = "600px";
-        document.getElementById("link-box-form-cadB").style.marginTop = "10px !important";
+        document.getElementById("link-box-form-cadB").style.marginTop = "-10px !important";
         window.history.pushState('page2', 'Title', '/?validate=true');
         document.getElementById("redirect_to").value = "?validate=true";
         console.log("Cadastrar usuário");
